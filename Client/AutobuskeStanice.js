@@ -886,7 +886,7 @@ export class AutobuskaStanice
         for(let j=1;j<i+1;j++)
         {
         let redKarta=this.crtajRed(redKarte,"redKarta");
-        let labela=this.crtajLabelu(redKarta,"Karta "+j+":","labelaKarta");
+        let labela=this.crtajLabelu(redKarta,"Sedište "+nizBrojevaSedista[j-1]+":","labelaKarta");
         
         let redRadio=this.crtajRed(redKarte,"redRadio");
         
